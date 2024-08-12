@@ -8,6 +8,7 @@ public class q1008 {
         int num = in.nextInt();
         int horas = in.nextInt();
         double valor = in.nextDouble();
+        
 
         System.out.println(String.format("NUMBER = %d", num));
         System.out.println(String.format("SALARY = U$ %.2f", horas*valor));
