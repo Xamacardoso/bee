@@ -7,17 +7,10 @@ def main():
         for i in range(n):
             for j in range(n):
                 valor = 2**(i+j)
-                
-            
-        
-                
-                print("%3d" %(valor), end = '')
+                print("%{}d".format(len(str(4**(n-1)))) %(valor), end = '')
                 if (j != n-1):
                     print(end = ' ')
             print()
         print()
-                
-        
-    
-    
+
 main();
